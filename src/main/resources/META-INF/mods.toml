@@ -29,7 +29,7 @@ credits="BP Team" #optional
 authors="UKMinecrafted" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Computer Craft/Open Computers support for MiTrek
+Computer Craft support for MiTrek
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.data]] #optional
@@ -50,10 +50,15 @@ Computer Craft/Open Computers support for MiTrek
     versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"
-
 #[[dependencies.data]]
     #modId="mitrek"
     #mandatory=true
     #versionRange="[0.1]"
     #ordering="NONE"
     #side="BOTH"
+[[dependencies.data]]
+    modId="computercraft"
+    mandatory=false
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
